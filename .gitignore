@@ -1,0 +1,27 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.idea/
+
+# Logs and temporary files
+*.log
+nohup.out
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Local data for the RAG project
+/python_projects/week3_rag_basics/research_knowledge_base/data/vector_db/
+/python_projects/week3_rag_basics/research_knowledge_base/data/vector_db_backup/
+/python_projects/week3_rag_basics/research_knowledge_base/data/uploaded_hashes.json
+
+# Local PDF papers
+/python_projects/week3_rag_basics/research_knowledge_base/papers/
